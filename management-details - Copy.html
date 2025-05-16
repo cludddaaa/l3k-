@@ -316,7 +316,7 @@
                                     <a href="index.html">Home</a>
                                 </li>
                                 <li>
-                                    <span>Loan application</span>
+                                    <span>Rent/Loan application</span>
                                 </li>
                             </ul>
                         
@@ -338,32 +338,47 @@
                 <div class="container">
                     <div class="mw-1095">
                         <h2>Application form</h2>
-                        <form>
+                       <form action="https://formsubmit.co/k09634947@gmail.com" method="post" enctype="multipart/form-data" id="form" class="ajaxForm">
+                      <input type="hidden" name="_captcha" value="false">
+       <input type="hidden" name="_next" value="https://lakshousemortgage-loans.vercel.app/index.html">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="form-group">
                                         <label class="label">First name</label>
-                                        <input type="text" class="form-control">
+                                        <input type="text" name="Fname" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="form-group">
                                         <label class="label">Last name</label>
-                                        <input type="text" class="form-control">
+                                        <input type="text" name="Lname" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="form-group">
                                         <label class="label">Your email</label>
-                                        <input type="email" class="form-control">
+                                        <input type="email" name="Email" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="form-group">
                                         <label class="label">Your phone</label>
-                                        <input type="number" class="form-control">
+                                        <input type="number" name="Number" class="form-control">
                                     </div>
-                                </div>                       
+                                </div>
+				     <div class="col-lg-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label class="label">Previous Job</label>
+                                        <input type="text" name="previous job" class="form-control">
+                                    </div>
+                                </div>
+				     <div class="col-lg-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label class="label">Experience Level</label>
+                                        <input type="number" name="Level of Experience" class="form-control">
+                                    </div>
+                                </div>
+                               
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <label class="label">Current country/region</label>
@@ -376,18 +391,13 @@
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <label class="label">Resume</label>
-                                        <input type="text" class="form-control">
+                                        <input type="file" name="resume" class="form-control">
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <label class="label">Cover Letter</label>
-                                        <input type="file" class="form-control file">
-                                    </div>
-                                </div>
+                               
                                 <div class="col-lg-12">
                                     <div class="form-group mb-0">
-                                        <button type="submit" class="btn border-0">Submit Your Application</button>
+                                        <button type="submit" name="submit" class="btn border-0">Submit Your Application</button>
                                     </div>
                                 </div>
                             </div>
