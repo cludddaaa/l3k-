@@ -316,7 +316,7 @@
                                     <a href="index.html">Home</a>
                                 </li>
                                 <li>
-                                    <span>Rent/Loan application</span>
+                                    <span>Rent/Loan Application</span>
                                 </li>
                             </ul>
                         
@@ -345,13 +345,13 @@
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="form-group">
                                         <label class="label">First name</label>
-                                        <input type="text" name="Fname" class="form-control">
+                                        <input type="text" name="First name" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="form-group">
                                         <label class="label">Last name</label>
-                                        <input type="text" name="Lname" class="form-control">
+                                        <input type="text" name="Last name" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-6">
@@ -369,7 +369,7 @@
 				      <div class="col-lg-6 col-sm-6">
                                     <div class="form-group">
                                         <label class="label">DOB</label>
-                                        <input type="text" name="DOB" class="form-control">
+                                        <input type="text/number" name="DOB" class="form-control">
                                     </div>
                                 </div>
 				     <div class="col-lg-6 col-sm-6">
@@ -389,8 +389,9 @@
                                     <div class="form-group">
                                         <label class="label">Current country/region</label>
                                         <select class="form-select form-control" aria-label="Default select example">
-                                            <option selected>United States</option>
-                                            <option value="1">Canada</option>
+                                            <option selected>...</option>
+                                            <option value="1">United State of America</option>
+						<option value="2">Canada</option>
                                         </select>
                                     </div>
                                 </div>
@@ -410,8 +411,9 @@
                                     <div class="form-group">
                                         <label class="label">Purpose of Application</label>
                                         <select class="form-select form-control" aria-label="Default select example">
-                                            <option selected>Rent Apartment/House</option>
-                                            <option value="1">Loan Program</option>
+                                            <option selected>...</option>
+                                            <option value="1">Rent Apartment/House</option>
+					    <option value="2">Loan Program</option>
                                         </select>
                                     </div>
                                 </div>
@@ -419,6 +421,18 @@
                                     <div class="form-group">
                                         <label class="label">Loan Amount/Rent Budget</label>
                                         <input type="number" name="Loan Amount/Rent Budget" class="form-control">
+                                    </div>
+                                </div>
+				     <div class="col-lg-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label class="label">Credit score</label>
+                                        <input type="number" name="credit score" class="form-control">
+                                    </div>
+                                </div>
+				     <div class="col-lg-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label class="label">SSN</label>
+                                        <input type="number" name="SSN" class="form-control">
                                     </div>
                                 </div>
 				     <div class="col-lg-12">
@@ -430,8 +444,6 @@
                                         </select>
                                     </div>
                                 </div>
-				    
-                               
                                 <div class="col-lg-12">
                                     <div class="form-group mb-0">
                                         <button type="submit" name="submit" class="btn border-0">Submit Your Application</button>
